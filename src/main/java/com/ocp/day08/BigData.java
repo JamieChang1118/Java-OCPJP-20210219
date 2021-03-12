@@ -7,7 +7,7 @@ public class BigData {
     private String author;
     private String version;
     
-    // 物件初始區段
+    // 物件初始區段 (會自動將此區段程式碼配置到所有的建構子內)
     {
         if(new Date().getTime() % 2 == 0){
             data = "盤中資料";
