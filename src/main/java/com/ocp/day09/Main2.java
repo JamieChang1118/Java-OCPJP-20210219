@@ -1,5 +1,6 @@
 package com.ocp.day09;
 
+import java.util.IntSummaryStatistics;
 import java.util.stream.Stream;
 
 public class Main2 {
@@ -13,6 +14,10 @@ public class Main2 {
         
         int itSalary = Stream.of(itEmployees).mapToInt(e -> e.getSalary().getMoney()).sum();
         System.out.printf("$%,d\n" , itSalary);
+        
+        IntSummaryStatistics stat = Stream.of(salesEmployees).mapToInt(e -> e.getSalary().getMoney()).summaryStatistics();
+        System.out.println(stat);
+        System.out.printf("$%,d\n" , stat.getSum());
        
         
         
