@@ -7,7 +7,7 @@ public class Employees {
     
     private static Employees _instance = new Employees();
     // 1.建立 private 的建構子
-    // 2.自己建立一個實例(static Employees 的物件)
+    // 2.自己建立一個 static 實例(static Employees 的物件)
     private Employees(){
     
     }
