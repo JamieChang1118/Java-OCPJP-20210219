@@ -1,5 +1,7 @@
 package com.ocp.day09;
 
+import java.util.stream.Stream;
+
 public class Main {
     public static void main(String[] args) {
         Employee john = new Employee();
@@ -11,5 +13,7 @@ public class Main {
         
         System.out.printf("%s 的薪資是 $%d\n" , john.getName() , john.getSalary().getMoney());
         System.out.printf("%s 的薪資是 $%d\n" , mary.getName() , mary.getSalary().getMoney());
+        
+        
     }
 }
