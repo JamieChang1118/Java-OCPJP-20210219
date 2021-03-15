@@ -32,5 +32,6 @@ class Foo extends Bar{
 public class ExamDemo {
     public static void main(String[] args) {
         Foo foo = new Foo();
+        // 印出 A B D C
     }
 }
