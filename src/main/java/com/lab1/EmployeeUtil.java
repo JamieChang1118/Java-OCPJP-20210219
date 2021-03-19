@@ -12,14 +12,14 @@ public class EmployeeUtil {
     return Stream.of(employees).mapToInt(Employee::getSalary).sum();   
     }
     
-    // 取得所有經理的薪資
-    public int getAllSalary(Manager... managers){
-    return Stream.of(managers).mapToInt(Manager::getSalary).sum();   
+    // 取得所有經理的預算(Budget)
+    public int getAllBudget(Manager... managers){
+    return Stream.of(managers).mapToInt(Manager::getBudget).sum();   
     }
     
-    // 取得所有董事的薪資
-    public int getAllSalary(Director... directors){
-    return Stream.of(directors).mapToInt(Director::getSalary).sum();   
+    // 取得所有董事的股票選擇權
+    public int getAllStockOptions(Director... directors){
+    return Stream.of(directors).mapToInt(Director::getStockOptions).sum();   
     }
     
 }
