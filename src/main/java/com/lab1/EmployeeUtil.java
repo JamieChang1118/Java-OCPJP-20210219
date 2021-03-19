@@ -1,5 +1,6 @@
 package com.lab1;
 
+import java.util.Random;
 import java.util.stream.Stream;
 
 
@@ -20,6 +21,19 @@ public class EmployeeUtil {
     // 取得所有董事的股票選擇權
     public int getAllStockOptions(Director... directors){
     return Stream.of(directors).mapToInt(Director::getStockOptions).sum();   
+    }
+    
+    // 公差一員
+    public Employee getRandomEmployee(){
+        int n = new Random().nextInt(3);    // 0 , 1 , 2
+        switch(n){
+            case 0:
+                return new Employee(38000);
+            case 1:
+                return new Manager(68000);
+            default:
+                return new Director(88000);
+        }
     }
     
 }
