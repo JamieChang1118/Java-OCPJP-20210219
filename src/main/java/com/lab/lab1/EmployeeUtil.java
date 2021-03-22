@@ -1,4 +1,4 @@
-package com.lab1;
+package com.lab.lab1;
 
 import java.util.Random;
 import java.util.stream.Stream;
