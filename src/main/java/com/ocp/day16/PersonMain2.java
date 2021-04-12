@@ -4,6 +4,7 @@ import java.util.function.DoubleUnaryOperator;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Stream;
 
+
 public class PersonMain2 {
     public static void main(String[] args) {
         Person[][] people = {

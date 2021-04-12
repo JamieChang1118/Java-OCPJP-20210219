@@ -27,6 +27,7 @@ public class InnerClass {
         mi.print();
         InnerClass.MyStaticInner msi = new InnerClass.MyStaticInner();
         msi.print();
+        
     }
     
 }
