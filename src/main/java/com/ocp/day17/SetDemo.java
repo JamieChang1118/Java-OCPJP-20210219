@@ -57,6 +57,7 @@ public class SetDemo {
                 .mapToInt(s -> (Integer)s)
                 .sum();
         System.out.println(sum2);
-                
+        
+                       
     }
 }
