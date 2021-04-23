@@ -5,6 +5,9 @@
  */
 package com.ocp.day18;
 
+import java.util.stream.Stream;
+
+
 /**
  *
  * @author boddy
@@ -91,10 +94,10 @@ public class LottoJFrame extends javax.swing.JFrame {
     private void lotto_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lotto_buttonActionPerformed
         //System.out.println(lotto_box.getSelectedIndex());
         //System.out.println(lotto_box.getSelectedItem());
-        int idx = lotto_box.getSelectedIndex();
+        int idx = lotto_box.getSelectedIndex();       
         switch(idx){
             case 0:
-                lotto_label.setText(LottoService.get539().toString());
+                lotto_label.setText(LottoService.get539().toString()); 
                 break;
             case 1:
                 lotto_label.setText(LottoService.get4Stars().toString());
