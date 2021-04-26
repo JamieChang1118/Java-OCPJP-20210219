@@ -1,7 +1,7 @@
 package com.ocp.day20;
 
 /*
-符合 @FunctionInterface
+符合 @FunctionInterface(只定义了唯一的抽象方法)
 1. 自定義的物件方法
 2. static 方法不算在內
 3. default 方法不算在內
