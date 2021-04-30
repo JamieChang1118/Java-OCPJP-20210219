@@ -2,7 +2,7 @@ package com.ocp.day21;
 
 public class AppleShare {
     public static void main(String[] args) {       
-        int n = 5;   // n 為人數
+        int n = 0;   // n 為人數
         try {
             submit(n);
         } catch (ArithmeticException e) {

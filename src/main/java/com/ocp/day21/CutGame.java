@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class CutGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("請輸入任一整數，若輸入0結束程式: ");
+        System.out.print("請輸入任一整數，若輸入0則結束程式: ");
         int rope = 0;
         int count = 0;
         

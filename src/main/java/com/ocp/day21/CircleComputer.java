@@ -25,6 +25,7 @@ public class CircleComputer {
             System.out.printf("area: %.2f\n" , area);
             //return;
         } catch (InputMismatchException e) {
+            count++ ;
             System.out.println("輸入錯誤 , 錯誤次數: " + count);
             System.out.println("錯誤原因: " + e);
             System.out.println("請重新輸入");
