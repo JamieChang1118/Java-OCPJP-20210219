@@ -47,6 +47,7 @@ public class BingoJFrame extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Bingo Game");
 
         b1.setText("jLabel1");
 
