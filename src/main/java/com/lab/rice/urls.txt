@@ -1,2 +1,0 @@
-https://data.coa.gov.tw/Service/OpenData/FromM/AgricultureiRiceFailure.aspx
-https://data.coa.gov.tw/Service/OpenData/FromM/AgricultureiRiceQualified.aspx
