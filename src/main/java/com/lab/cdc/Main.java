@@ -1,0 +1,11 @@
+package com.lab.cdc;
+
+import java.util.stream.Stream;
+
+public class Main {
+    public static void main(String[] args) {
+        CDC[] cdcs = Util.getCdcs();
+        Stream.of(cdcs).filter(c -> c.getSent().contains("2021-05-14"))
+                .forEach(c -> System.out.println(c.getHeadline() + ":" + c.getDescription().trim()));
+    }
+}
