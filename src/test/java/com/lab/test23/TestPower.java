@@ -1,4 +1,4 @@
-package com.ocp.test23;
+package com.lab.test23;
 
 import com.ocp.day23.Power;
 import junit.framework.Assert;

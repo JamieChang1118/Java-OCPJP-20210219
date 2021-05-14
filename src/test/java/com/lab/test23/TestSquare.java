@@ -1,4 +1,4 @@
-package com.ocp.test23;
+package com.lab.test23;
 
 import com.ocp.day23.Square;
 import junit.framework.Assert;
