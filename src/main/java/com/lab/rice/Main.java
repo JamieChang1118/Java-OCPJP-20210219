@@ -13,13 +13,10 @@ public class Main {
         list.addAll(Arrays.asList(rices2));
         
         list.stream().filter(r -> r.get品名().contains("冠軍")).forEach(System.out::println);
-
+        
 //        Stream.of(rices)
 //                .filter(r -> r.get檢驗結果().contains("不合格"))
 //                .forEach(System.out::println);
-        
-        
-
-        
+     
     }
 }
