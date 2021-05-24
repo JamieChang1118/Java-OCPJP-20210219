@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 
 
-public class Main {
+public class Quize {
     public static void main(String[] args) {
         List<String> items = Arrays.asList("蘋果","蘋果","香蕉","蘋果","柳丁","香蕉","椰子");
         

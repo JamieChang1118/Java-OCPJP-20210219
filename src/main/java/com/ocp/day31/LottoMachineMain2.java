@@ -23,7 +23,7 @@ public class LottoMachineMain2 {
         list.add(new LottoMachine(4));
         list.add(new LottoMachine(5));
         System.out.println("開始搖獎");
-        Lotto result = service.invokeAny(list);
+        Lotto result = service.invokeAny(list);    // 只得到最快搖出獎的號碼
         System.out.println("唱名獎號");
         System.out.println(result);
         service.shutdown();

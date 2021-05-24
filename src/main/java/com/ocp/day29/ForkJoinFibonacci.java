@@ -5,7 +5,9 @@ import java.util.concurrent.RecursiveTask;
 
 /**
  *  費氏數列(Fibonacci):用文字來說，就是費氏數列由0和1開始，之後的費波那契數就是由之前的兩數相加而得出。
- * 
+ *  f(0) = 0
+    f(1) = 1
+    f(n) = f(n-1) + f(n-2)
  */
 
 class Fibonacci extends RecursiveTask<Integer>{
